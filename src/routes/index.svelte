@@ -7,7 +7,9 @@
   }
 </script>
 
-<p>This app is designed to maximize your anime watching productivity by helping you find the show on your Anilist that you are closest to finishing watching.</p>
+<p>This app is designed to maximize your anime watching productivity by helping you find the show on your Anilist that you are not currently watching, but are closest to finishing watching.</p>
+
+<p>This allows you to pick something new and still optimize for getting things done.</p>
 
 <form on:submit|preventDefault={e => goGoManiac()}>
   <p>
