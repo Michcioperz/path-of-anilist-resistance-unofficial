@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Path of Anilist Resistance (UNOFFICIAL)</title>
+
+		
+
+		<link rel="modulepreload" href="/_app/start-c45fce03.js">
+		<link rel="modulepreload" href="/_app/chunks/vendor-4048497a.js">
+		<link rel="modulepreload" href="/_app/chunks/singletons-12a22614.js">
+		<link rel="modulepreload" href="/_app/pages/__layout.svelte-36d3d939.js">
+		<link rel="modulepreload" href="/_app/pages/index.svelte-a5fd980b.js">
+		<link rel="stylesheet" href="/_app/assets/start-61d1577b.css">
+		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-2f44d2e2.css">
+
+		<script type="module">
+			import { start } from "/_app/start-c45fce03.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":""},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/_app/pages/__layout.svelte-36d3d939.js"),
+						import("/_app/pages/index.svelte-a5fd980b.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+
+
+
+
+<div class="container svelte-1497dsz"><header class="svelte-1497dsz"><h1>Path of Anilist Resistance (UNOFFICIAL)</h1></header>
+
+  <main class="svelte-1497dsz"><p>This app is designed to maximize your anime watching productivity by helping you find the show on your Anilist that you are not currently watching, but are closest to finishing watching.</p>
+
+<p>This allows you to pick something new and still optimize for getting things done.</p>
+
+<form><p><label for="username">Pick your warrior (your Anilist username):</label>
+    <input name="username" pattern=".+" type="text" value=""></p>
+  <p><input type="submit" value="Isekai me!"></p></form></main>
+
+  <footer class="svelte-1497dsz">This app is not affiliated with Anilist.
+  </footer></div>
+
+
+
+			
+		</div>
+	</body>
+</html>
