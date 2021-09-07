@@ -17,6 +17,6 @@
     <input class="block w-full px-2 py-2 mb-2 rounded" bind:value={username} name="username" pattern=".+" type="text">
   </p>
   <p>
-    <input type="submit" class="inline-block p-2 bg-blue-500 text-white rounded" value="Isekai me!">
+    <input type="submit" class="inline-block cursor-pointer p-2 bg-blue-500 hover:bg-blue-400 transition ease-in duration-150 text-white rounded" value="Isekai me!">
   </p>
 </form>
