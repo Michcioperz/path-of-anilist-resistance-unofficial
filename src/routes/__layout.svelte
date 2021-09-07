@@ -13,7 +13,7 @@
     <slot></slot>
   </main>
 
-  <footer>
+  <footer class="text-xs text-center text-purple-600 border-t border-purple-600 mt-4 py-2">
     This app is not affiliated with Anilist.
   </footer>
 </div>
