@@ -57,6 +57,8 @@
 </script>
 
 <script>
+  import ListEntry from '../../components/ListEntry.svelte';
+
   export let username, entries;
 </script>
 
@@ -64,8 +66,10 @@
   <title>{username} – Path of Anilist Resistance</title>
 </svelte:head>
 
-<h2>for brave weeb <u>{username}</h2>
-<a href="/">Pick someone else</a>
+<div class="md:flex mb-4">
+  <h2 class="text-4xl font-semibold text-purple-900 italic self-center sm:mb-2 md:mb-0">{username}'s path</h2>
+  <a class="ml-auto self-center inline-block p-2 bg-blue-500 hover:bg-blue-400 transition ease-in duration-150 text-white rounded" href="/">Pick someone else</a>
+</div>
 
 <ol class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
   {#each entries as entry}
